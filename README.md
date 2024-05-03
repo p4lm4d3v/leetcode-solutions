@@ -1,6 +1,6 @@
 # My Leetcode Solutions 
 
-  - Made by ```p4lm4```
+  - Made by ```p4lm4d3v```
 
 # Description
 
