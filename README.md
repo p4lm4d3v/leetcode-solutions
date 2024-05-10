@@ -1,4 +1,4 @@
-# My Leetcode Solutions 
+# Leetcode Solutions 
 
   - Made by ```p4lm4d3v```
 
