@@ -4,4 +4,9 @@
 
 # Description
 
-  - A collection of leetcode solutions in multiple programming languages
+  - A collection of [leetcode](https://leetcode.com/) solutions.
+
+# Languages
+
+  * #### [Rust](https://www.rust-lang.org/)
+  * #### [Python](https://www.python.org/)
