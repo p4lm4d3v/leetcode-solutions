@@ -1,5 +1,5 @@
 [package]
-name = "compare_version_numbers"
+name = "jewels-and-stones"
 version = "0.1.0"
 edition = "2021"
 
