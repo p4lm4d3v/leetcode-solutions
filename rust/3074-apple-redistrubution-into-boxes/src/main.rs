@@ -1,6 +1,8 @@
 // Explanation in this video
 // url: https://www.instagram.com/reel/C4i1P5gqai6/?igsh=MW91d2NwbXRidnIxeg%3D%3D
 
+mod tests;
+
 fn main() {}
 
 struct Solution {}
@@ -20,26 +22,5 @@ impl Solution {
     }
     fn remove_first_element(vec: &Vec<i32>) -> Vec<i32> {
         vec.iter().skip(1).map(|f| *f).collect()
-    }
-}
-
-#[cfg(test)]
-mod minimum_boxes {
-    use super::*;
-
-    #[test]
-    fn minimum_boxes1() {
-        let result: i32 = Solution::minimum_boxes(vec![1, 3, 2], vec![4, 3, 1, 5, 2]);
-        assert_eq!(result, 2);
-    }
-    #[test]
-    fn minimum_boxes2() {
-        let result: i32 = Solution::minimum_boxes(vec![5, 5, 5], vec![2, 4, 2, 7]);
-        assert_eq!(result, 4);
-    }
-    #[test]
-    fn minimum_boxes3() {
-        let result: i32 = Solution::minimum_boxes(vec![2, 1, 4, 3], vec![5, 1, 8]);
-        assert_eq!(result, 2);
     }
 }
