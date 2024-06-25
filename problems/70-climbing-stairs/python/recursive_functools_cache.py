@@ -9,8 +9,8 @@ class Solution:
         if n == 2:
             return 2
 
-        two_back: int = self.climbStairs(n - 2, cache=cache)
-        one_back: int = self.climbStairs(n - 1, cache=cache)
+        two_back: int = self.climbStairs(n - 2)
+        one_back: int = self.climbStairs(n - 1)
         return two_back + one_back
 
 
