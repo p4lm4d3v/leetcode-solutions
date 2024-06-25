@@ -9,13 +9,11 @@ class Solution:
             return 1
 
         vec: List[int] = [1, 1]
-        idx: int = 0
         for i in range(2, n):
             two_back: int = vec[i - 2]
             one_back: int = vec[i - 1]
             vec.append(two_back + one_back)
-            idx = i
-        return vec[idx]
+        return vec[n - 1]
 
 
 def test(n: int) -> None:
